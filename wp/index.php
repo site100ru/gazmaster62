@@ -100,6 +100,7 @@
 	</head>
 	<body>
 	
+		
 		<nav>
 			<div class="hide navbar navbar-fixed-top">
 				<div class="navbar-inner">
@@ -128,116 +129,116 @@
 			</div>
 		</nav>
 		
-		<header class="container home-anchor">
-		<div class="row">
-			<div class="span12">
-				<div class="title">Аварийно-диспетчерская служба</div>
-			</div>
-			<div class="span6"><div class="sub">Выезд в день обращения</div></div>
-			<div class="span6"><div class="sub">Бесплатная консультация</div></div>
-			<div class="span5">
-				<h1 class="animated fadeInLeftBig animation-delay"><span class="subtitle">Ремонт и обслуживание </span> газовых котлов <span class="subtitle">Beretta, Baxi, Vaillant, Ariston, Electrolux</span></h1>
-				<p class="animated fadeInLeftBig animation-delay"><p><a href="tel:99-82-33"><span style="font-size: 32px; font-weight: 500;">Тел: 99-82-33</span></a><br />
-				Тел: <a href="tel:+7 906 541-56-78">+7 906 541-56-78</a><br />
-				E-mail: <a href="mailto:gazmaster62@mail.ru">gazmaster62@mail.ru<br />
-				</a></p>
-				</a>  
-				<a href="#" class="scroll" id="infoslider">Узнайте больше»</a></p>
-				<div class="animated fadeInUp buttons-delay"><a id="download-button" class="button hover animated" href="#down" >Вызов специалиста</a></div>
-				<div class="store-buttons animated fadeInUp buttons-delay"></div>
-			</div>
-			<div class="span7 animated fadeInRightBig animation-delay">
-				<div class="notebookslider flexslider">
-				  <ul class="slides">
-									<li>
-					  <img src="img/slide3.jpg" />
-					</li>
-									<li>
-					  <img src="img/slide2.jpg" />
-					</li>
-									<li>
-					  <img src="img/slide1.jpg" />
-					</li>
-								  </ul>
-				</div>
-			</div>
-		</div>
-		</header><section id="newsletter">
-		<div class="container newsletter-anchor">
-			<div class="row">
-				<div class="span8 offset2">
-				  <h2><i class="icon-envelope-alt"></i>Приготовим для Вас индивидуальное предложение!</h2></div>
-			</div>
-			<div class="row">
-				<div class="span8 offset2 newsletter-form">
-					<div role="form" class="wpcf7" id="wpcf7-f8-o1" lang="ru-RU" dir="ltr">
-					<div class="screen-reader-response"></div>
-					<form action="mls/order-mail.php" method="post" class="wpcf7-form" novalidate="novalidate">
-						<div id="newsletter-form">
-							<div class="submit-field">
-								<button type="submit" class="wpcf7-form-control wpcf7-submit submit" id="send-newsletter">Заказать</button>
-							</div>
-							<div class="email-field">
-								<span class="wpcf7-form-control-wrap text-746"><input type="text" name="mail" value="" size="40" class="wpcf7-form-control wpcf7-text email" aria-invalid="false" placeholder="Введите свой Email" /></span>
-							</div>
-						</div>
-						<div class="wpcf7-response-output wpcf7-display-none"></div>
-					</form>
-					
-					
-					</div>	    	</div>
-					<div class="span12">
-					<p class="text-center newsletter-info">Максимально короткие сроки реагирования.</p>
-				</div>
-			</div>
-		</div>
-		</section>
 		
-					
-					
-				
-					
+		<header class="container home-anchor">
+			<div class="row">
+				<div class="span12">
+					<div class="title">Аварийно-диспетчерская служба</div>
+				</div>
+				<div class="span6"><div class="sub">Выезд в день обращения</div></div>
+				<div class="span6"><div class="sub">Бесплатная консультация</div></div>
+				<div class="span5">
+					<h1 class="animated fadeInLeftBig animation-delay"><span class="subtitle">Ремонт и обслуживание </span> газовых котлов <span class="subtitle">Beretta, Baxi, Vaillant, Ariston, Electrolux</span></h1>
+					<p class="animated fadeInLeftBig animation-delay"><p><a href="tel:99-82-33"><span style="font-size: 32px; font-weight: 500;">Тел: 99-82-33</span></a><br />
+					Тел: <a href="tel:+7 906 541-56-78">+7 906 541-56-78</a><br />
+					E-mail: <a href="mailto:gazmaster62@mail.ru">gazmaster62@mail.ru<br />
+					</a></p>
+					</a>  
+					<a href="#" class="scroll" id="infoslider">Узнайте больше»</a></p>
+					<div class="animated fadeInUp buttons-delay"><a id="download-button" class="button hover animated" href="#down" >Вызов специалиста</a></div>
+					<div class="store-buttons animated fadeInUp buttons-delay"></div>
+				</div>
+				<div class="span7 animated fadeInRightBig animation-delay">
+					<div class="notebookslider flexslider">
+						<ul class="slides">
+							<li>
+								<img src="img/slide3.jpg" />
+							</li>
+							<li>
+								<img src="img/slide2.jpg" />
+							</li>
+							<li>
+								<img src="img/slide1.jpg" />
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		
+		<section id="newsletter">
+			<div class="container newsletter-anchor">
+				<div class="row">
+					<div class="span8 offset2">
+					  <h2><i class="icon-envelope-alt"></i>Приготовим для Вас индивидуальное предложение!</h2></div>
+				</div>
+				<div class="row">
+					<div class="span8 offset2 newsletter-form">
+						<div role="form" class="wpcf7" id="wpcf7-f8-o1" lang="ru-RU" dir="ltr">
+							<div class="screen-reader-response"></div>
+							<form action="mls/order-mail.php" method="post" class="wpcf7-form" novalidate="novalidate">
+								<div id="newsletter-form">
+									<div class="submit-field">
+										<button type="submit" class="wpcf7-form-control wpcf7-submit submit" id="send-newsletter">Заказать</button>
+									</div>
+									<div class="email-field">
+										<span class="wpcf7-form-control-wrap text-746"><input type="text" name="mail" value="" size="40" class="wpcf7-form-control wpcf7-text email" aria-invalid="false" placeholder="Введите свой Email" /></span>
+									</div>
+								</div>
+								<div class="wpcf7-response-output wpcf7-display-none"></div>
+							</form>
+						</div>
+					</div>
+					<div class="span12">
+						<p class="text-center newsletter-info">Максимально короткие сроки реагирования.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+			
 					
 		<section id="information">
 			<div class="infoslider flexslider info-anchor">
 				<ul class="slides">
-							<li>
-					<div class="container">
-						<div class="row">
-							<div class="span5"><img src="img/infoslide1.jpg" /></div>
-							<div class="span7">
-							<h2 style="text-align: justify;">О нас</h2>
-							<p style="text-align: justify;"><b>Компания «ГазМастер»</b> является специализированным предприятием, работающим на рынке монтажа, обслуживания и ремонта систем отопления, водоснабжения и водоподготовки.</p>
-							<p style="text-align: justify;">Мы предлагаем нашим клиентам полный комплекс работ по созданию благоприятного климата в Вашем доме. Специалисты фирмы всегда готовы оказать консультационные услуги по всем интересующим вас вопросам, подобрать оборудование в соответствии с техническими условиями и вашими пожеланиями, быстро и качественно выполнить расчет и <b>монтаж систем отопления</b>, ввести оборудование в эксплуатацию, произвести диагностику и обследование существующих систем, осуществить техническое обслуживание, <i>гарантийный и послегарантийный ремонт систем отопления и кондиционирование.</i></p>
+					<li>
+						<div class="container">
+							<div class="row">
+								<div class="span5"><img src="img/infoslide1.jpg" /></div>
+								<div class="span7">
+								<h2 style="text-align: justify;">О нас</h2>
+								<p style="text-align: justify;"><b>Компания «ГазМастер»</b> является специализированным предприятием, работающим на рынке монтажа, обслуживания и ремонта систем отопления, водоснабжения и водоподготовки.</p>
+								<p style="text-align: justify;">Мы предлагаем нашим клиентам полный комплекс работ по созданию благоприятного климата в Вашем доме. Специалисты фирмы всегда готовы оказать консультационные услуги по всем интересующим вас вопросам, подобрать оборудование в соответствии с техническими условиями и вашими пожеланиями, быстро и качественно выполнить расчет и <b>монтаж систем отопления</b>, ввести оборудование в эксплуатацию, произвести диагностику и обследование существующих систем, осуществить техническое обслуживание, <i>гарантийный и послегарантийный ремонт систем отопления и кондиционирование.</i></p>
+								</div>
 							</div>
 						</div>
-					</div>
-				</li>
-							<li>
-					<div class="container">
-						<div class="row">
-							<div class="span5"><img src="img/infoslide3.jpg" /></div>
-							<div class="span7">
-							<h2 style="text-align: justify;">Что мы обслуживаем?</h2>
-							<p style="text-align: justify;">Компания &#171;ГазМастер&#187; осуществляет техническое обслуживание и ремонт продукции таких брендов как: De Dietrich, Electrolux, Baxi, Bianchi, Buderus, TECE, Wattek, Protherm, Navien, Baltur, Westen, Renai, Gazlux, Vissman - ведущих производителей отопительного оборудования и запорной арматуры.</p>
+					</li>
+					<li>
+						<div class="container">
+							<div class="row">
+								<div class="span5"><img src="img/infoslide3.jpg" /></div>
+								<div class="span7">
+								<h2 style="text-align: justify;">Что мы обслуживаем?</h2>
+								<p style="text-align: justify;">Компания &#171;ГазМастер&#187; осуществляет техническое обслуживание и ремонт продукции таких брендов как: De Dietrich, Electrolux, Baxi, Bianchi, Buderus, TECE, Wattek, Protherm, Navien, Baltur, Westen, Renai, Gazlux, Vissman - ведущих производителей отопительного оборудования и запорной арматуры.</p>
+								</div>
 							</div>
 						</div>
-					</div>
-				</li>
-							<li>
-					<div class="container">
-						<div class="row">
-							<div class="span5"><img src="img/infoslide2.jpg" /></div>
-							<div class="span7">
-							<h2 style="text-align: justify;">Почему мы?</h2>
-							<p style="text-align: justify;">Сотрудничество с производителями и разработчиками оборудования позволяет проводить обучение и повышение квалификации персонала, опираясь на ведущий мировой опыт в области инженерных систем. Специалисты нашей компании всегда готовы помочь в выборе отопительной и климатической техники, предложить выгодные цены, сервисное обслуживание, обеспечить наличие запасных частей, их поставку в максимально кратчайшие сроки.</p>
+					</li>
+					<li>
+						<div class="container">
+							<div class="row">
+								<div class="span5"><img src="img/infoslide2.jpg" /></div>
+								<div class="span7">
+								<h2 style="text-align: justify;">Почему мы?</h2>
+								<p style="text-align: justify;">Сотрудничество с производителями и разработчиками оборудования позволяет проводить обучение и повышение квалификации персонала, опираясь на ведущий мировой опыт в области инженерных систем. Специалисты нашей компании всегда готовы помочь в выборе отопительной и климатической техники, предложить выгодные цены, сервисное обслуживание, обеспечить наличие запасных частей, их поставку в максимально кратчайшие сроки.</p>
+								</div>
 							</div>
 						</div>
-					</div>
-				</li>
-							</ul>
+					</li>
+				</ul>
 			</div>
 		</section>
+		
 		
 		<section id="about">
 			<div class="container about-anchor">
@@ -248,7 +249,7 @@
 					</div>
 				</div>
 				<div class="row profiles">
-								<div class="span3 profile">
+					<div class="span3 profile">
 						<div class="profile-image">
 							<img src="img/profile1.jpg" />
 						</div>
@@ -258,7 +259,7 @@
 						<h3 class="text-center"></h3>
 						<p class="text-center">Техническое обслуживания котлов отопления</p>
 					</div>
-								<div class="span3 profile">
+					<div class="span3 profile">
 						<div class="profile-image">
 							<img src="img/profile2.jpg" />
 						</div>
@@ -268,7 +269,7 @@
 						<h3 class="text-center"></h3>
 						<p class="text-center">Монтаж систем отопления и водоснабжения</p>
 					</div>
-								<div class="span3 profile">
+					<div class="span3 profile">
 						<div class="profile-image">
 							<img src="img/profile3.jpg" />
 						</div>
@@ -278,7 +279,7 @@
 						<h3 class="text-center"></h3>
 						<p class="text-center">Ремонт, монтаж и обслуживания систем водоподготовки.(Водоочистки)</p>
 					</div>
-								<div class="span3 profile">
+					<div class="span3 profile">
 						<div class="profile-image">
 							<img src="img/profile4.jpg" />
 						</div>
@@ -288,56 +289,64 @@
 						<h3 class="text-center"></h3>
 						<p class="text-center">Ремонт газового, отопительного, насосного оборудования</p>
 					</div>
-							</div>
+				</div>
 			</div>
 		</section>
+		
 		
 		<section id="testimonials" class="container testimonials-anchor">
 			<div class="row">
 				<div class="span10 offset1">
-					<div class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star star-big"></i><i class="icon-star"></i><i class="icon-star"></i></div>
+					<div class="stars">
+						<i class="icon-star"></i>
+						<i class="icon-star"></i>
+						<i class="icon-star star-big"></i>
+						<i class="icon-star"></i>
+						<i class="icon-star"></i>
+					</div>
 					<div class="testimonialslider flexslider">
-					  <ul class="slides">
-											<li>
-						  <p class="text-center testimonial">Все отлично, спасибо!</p>
-						  <p class="text-center client">– Андрей </p>
-						</li>
-											<li>
-						  <p class="text-center testimonial">Большая благодарность за проделанную работу</p>
-						  <p class="text-center client">– Ирина </p>
-						</li>
-											<li>
-						  <p class="text-center testimonial">Очень помогли, буду советовать вас друзьям</p>
-						  <p class="text-center client">– Кирилл </p>
-						</li>
-										  </ul>
+						<ul class="slides">
+							<li>
+								<p class="text-center testimonial">Все отлично, спасибо!</p>
+								<p class="text-center client">– Андрей </p>
+							</li>
+							<li>
+								<p class="text-center testimonial">Большая благодарность за проделанную работу</p>
+								<p class="text-center client">– Ирина </p>
+							</li>
+							<li>
+								<p class="text-center testimonial">Очень помогли, буду советовать вас друзьям</p>
+								<p class="text-center client">– Кирилл </p>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
 			<div class="row clients">
-						<div class="span3">
+				<div class="span3">
 					<div class="client-img">
 						<img src="img/client1.png"/>
 					</div>
 				</div>
-							<div class="span3">
+				<div class="span3">
 					<div class="client-img">
 						<img src="img/client2.png"/>
 					</div>
 				</div>
-							<div class="span3">
+				<div class="span3">
 					<div class="client-img">
 						<img src="img/client3.png"/>
 					</div>
 				</div>
-							<div class="span3">
+				<div class="span3">
 					<div class="client-img">
 						<img src="img/client4.png"/>
 					</div>
 				</div>
-						</div>
+			</div>
 		</section>
     
+		
 		<div style="background: rgb(250,250,250);">
 			<section id="pricing" class="container pricing-anchor" style="padding-top: 50px; padding-bottom: 50px; margin-bottom: 50px;">
 					<div class="row">
@@ -365,6 +374,7 @@
 			</section>
 		</div>
 	
+		
 		<section id="information2" class="info2-anchor">
 			<h2 class="text-center" style="color:#cc2424;">Проведем диагностику бесплатно!</h2>
 			<div class="infoslider flexslider">
@@ -420,7 +430,8 @@
 								</div>
 								<div class="span5">
 									<p>Возобновление работы котла (сброс ошибок) происходит путем перевода переключателя в положение “выключен” на 5-6 секунд. Если сброс не помогает устранить ошибку а01 – необходимо начать поиск неисправности.</p>
-									<p>Для проверки исправности некоторых узлов котла потребуется специальное оборудование и навыки, поэтому, если Вы не уверены, что понимаете, о чем идет речь, лучше следовать инструкции завода-изготовителя и вызвать сервисного специалиста.</p></div>
+									<p>Для проверки исправности некоторых узлов котла потребуется специальное оборудование и навыки, поэтому, если Вы не уверены, что понимаете, о чем идет речь, лучше следовать инструкции завода-изготовителя и вызвать сервисного специалиста.</p>
+								</div>
 							</div>
 						</div>
 					</li>
