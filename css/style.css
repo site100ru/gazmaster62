@@ -33,3 +33,21 @@ div.wpcf7 .ajax-loader {
     padding: 10px 25px;
 }
 }
+
+
+/*** Messanger icons ***/
+.messangers {
+	list-style: none;
+	margin: 0px; }
+	
+	@media (max-width: 768px) {
+		.messangers {
+			text-align: center;
+			margin-bottom: 15px;
+		}
+	}
+
+.messangers li {
+	display: inline-block;
+}
+/*** End messanger icons ***/

@@ -18,12 +18,10 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
 
 		<!--[if IE 7]><link rel="stylesheet" href="font/css/font-awesome-ie7.min.css"><![endif]-->
-
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
 		  <script src="js/html5shiv.js"></script>
 		<![endif]-->
-		
 		
 		<!-- Fav and touch icons -->
 		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/ico/apple-touch-icon-144-precomposed.png">
@@ -40,11 +38,11 @@
 		<link rel="canonical" href="https://xn--62-6kcanom4bzbil.xn--p1ai/" />
 		<!-- /all in one seo pack -->
 		<link rel='dns-prefetch' href='//s.w.org' />
-			<script type="text/javascript">
-				window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/xn--62-6kcanom4bzbil.xn--p1ai\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.23"}};
-				!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])?!1:!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55358,56760,9792,65039],[55358,56760,8203,9792,65039])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
-			</script>
-			<style type="text/css">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/xn--62-6kcanom4bzbil.xn--p1ai\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.23"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])?!1:!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55358,56760,9792,65039],[55358,56760,8203,9792,65039])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
 			img.wp-smiley,
 			img.emoji {
 				display: inline !important;
@@ -57,7 +55,7 @@
 				background: none !important;
 				padding: 0 !important;
 			}
-			</style>
+		</style>
 		<link rel='stylesheet' id='contact-form-7-css'  href='css/styles.css?ver=5.1' type='text/css' media='all' />
 		<link rel='stylesheet' id='foobox-free-min-css'  href='css/foobox.free.min.css?ver=2.6.0' type='text/css' media='all' />
 		<link rel='stylesheet' id='my_style-css'  href='css/style.css' type='text/css' media='all' />
@@ -138,14 +136,33 @@
 				<div class="span6"><div class="sub">Выезд в день обращения</div></div>
 				<div class="span6"><div class="sub">Бесплатная консультация</div></div>
 				<div class="span5">
-					<h1 class="animated fadeInLeftBig animation-delay"><span class="subtitle">Ремонт и обслуживание </span> газовых котлов <span class="subtitle">Beretta, Baxi, Vaillant, Ariston, Electrolux</span></h1>
-					<p class="animated fadeInLeftBig animation-delay"><p><a href="tel:99-82-33"><span style="font-size: 32px; font-weight: 500;">Тел: 99-82-33</span></a><br />
-					Тел: <a href="tel:+7 906 541-56-78">+7 906 541-56-78</a><br />
-					E-mail: <a href="mailto:gazmaster62@mail.ru">gazmaster62@mail.ru<br />
-					</a></p>
-					</a>  
-					<a href="#" class="scroll" id="infoslider">Узнайте больше»</a></p>
-					<div class="animated fadeInUp buttons-delay"><a id="download-button" class="button hover animated" href="#down" >Вызов специалиста</a></div>
+					<h1 class="animated fadeInLeftBig animation-delay">
+						<span class="subtitle">Ремонт и обслуживание </span> газовых котлов <span class="subtitle">Beretta, Baxi, Vaillant, Ariston, Electrolux</span>
+					</h1>
+					<p class="animated fadeInLeftBig animation-delay" style="margin-bottom: 20px;">
+						<a href="tel:99-82-33"><span style="font-size: 32px; font-weight: 500;">Тел: 99-82-33</span></a>
+						<br />
+						Тел: <a href="tel:+7 906 541-56-78">+7 906 541-56-78</a>
+						<br />
+						E-mail: <a href="mailto:gazmaster62@mail.ru">gazmaster62@mail.ru</a>
+						<br />
+						<a href="#" class="scroll" id="infoslider">Узнайте больше»</a>
+					</p>
+					<ul class="messangers">		
+						<li style="margin-right: 15px;">
+							<a href="https://t.me/+79065415678">
+								<img src="img/ico/telegram-ico.svg">
+							</a>
+						</li>
+						<li>
+							<a href="https://wa.me/79065415678?web=1&app_absent=1">
+								<img src="img/ico/whatsapp-ico.svg">
+							</a>
+						</li>
+					</ul>
+					<div class="animated fadeInUp buttons-delay">
+						<a id="download-button" class="button hover animated" href="#down">Вызов специалиста</a>
+					</div>
 					<div class="store-buttons animated fadeInUp buttons-delay"></div>
 				</div>
 				<div class="span7 animated fadeInRightBig animation-delay">
@@ -175,15 +192,18 @@
 				</div>
 				<div class="row">
 					<div class="span8 offset2 newsletter-form">
-						<div role="form" class="wpcf7" id="wpcf7-f8-o1" lang="ru-RU" dir="ltr">
+						<div role="form" class="" id="" lang="ru-RU" dir="ltr"> <!-- .wpcf7 #wpcf7-f8-o1 -->
 							<div class="screen-reader-response"></div>
-							<form action="mls/order-mail.php" method="post" class="wpcf7-form" novalidate="novalidate">
+							<form action="mls/order-mail.php" method="post" class=""> <!-- .wpcf7-form -->
 								<div id="newsletter-form">
 									<div class="submit-field">
-										<button type="submit" class="wpcf7-form-control wpcf7-submit submit" id="send-newsletter">Заказать</button>
+										<input type="hidden" id="g-recaptcha-response-order" name="g-recaptcha-response">
+										<button type="submit" class="submit" id="">Заказать</button> <!-- wpcf7-form-control wpcf7-submit #send-newsletter -->
 									</div>
 									<div class="email-field">
-										<span class="wpcf7-form-control-wrap text-746"><input type="text" name="mail" value="" size="40" class="wpcf7-form-control wpcf7-text email" aria-invalid="false" placeholder="Введите свой Email" /></span>
+										<span class=""> <!-- wpcf7-form-control-wrap text-746 -->
+											<input type="email" name="mail" value="" size="40" class="email" aria-invalid="false" placeholder="Введите свой Email" required /> <!-- .wpcf7-form-control wpcf7-text -->
+										</span>
 									</div>
 								</div>
 								<div class="wpcf7-response-output wpcf7-display-none"></div>
@@ -644,33 +664,57 @@
 			</div>
 			<div class="row">
 				<div class="span6">
-					<p>ГазМастер<br />
-					<span class="highlight">гор. Рязань, ул. Полевая, д. 1</span></p>
+					<p>
+						ГазМастер<br />
+						<span class="highlight">гор. Рязань, ул. Полевая, д. 1</span><br />
+						Офис: с 9.00 до 20.00
+					</p>
+					
 					<div class="gmap" style="margin-bottom: 35px;">
-					<iframe src="https://www.google.com/maps/d/embed?mid=16a6sqX7i1b_88jOQGMI671njXgIuf_9Z&#038;hl=ru" width="500" height="375" style="border: none; max-width: 100%;"></iframe>
+						<iframe src="https://www.google.com/maps/d/embed?mid=16a6sqX7i1b_88jOQGMI671njXgIuf_9Z&#038;hl=ru" width="500" height="375" style="border: none; max-width: 100%;"></iframe>
 					</div>
-					<p><span class="highlight">Тел:</span> 99-82-33<br />
-					<span class="highlight">E-mail:</span> <a href="mailto:gazmaster62@mail.ru">gazmaster62@mail.ru</a></p>
+					<p style="margin-bottom: 15px;">
+						<span class="highlight">Тел:</span> 99-82-33<br />
+						<span class="highlight">E-mail:</span> <a href="mailto:gazmaster62@mail.ru">gazmaster62@mail.ru</a>
+					</p>
+					<ul class="messangers">		
+						<li style="margin-right: 15px;">
+							<a href="https://t.me/+79065415678">
+								<img src="img/ico/telegram-ico.svg">
+							</a>
+						</li>
+						<li>
+							<a href="https://wa.me/79065415678?web=1&app_absent=1">
+								<img src="img/ico/whatsapp-ico.svg">
+							</a>
+						</li>
+					</ul>
 				</div>
 				<div class="span6">
 					<div role="form" class="wpcf7-form" id="wpcf7-f85-o2" lang="ru-RU" dir="ltr">
-					<div class="screen-reader-response"></div>
+						<div class="screen-reader-response"></div>
 					
-						<form  method="post" action="mls/message-from-contacts.php" class="wpcf7-form" novalidate="novalidate">
+						<form  method="post" action="mls/message-from-contacts.php" class="wpcf7-form">
 							<fieldset>
 								<label> Ваше имя </label><br />
 								<span class="wpcf7-form-control-wrap text-273"><input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input-block-level" aria-required="true" aria-invalid="false" /></span><br />
 								<label>Email*:</label><br />
-								<span class="wpcf7-form-control-wrap text-965"><input type="text" name="mail" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input-block-level" aria-required="true" aria-invalid="false" /></span><br />
+								<span class="wpcf7-form-control-wrap text-965">
+									<input type="text" name="mail" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input-block-level" aria-invalid="false" required />
+								</span>
+								<br />
 								<label>Сообщение:</label><br />
 								<span class="wpcf7-form-control-wrap textarea-935"><textarea name="mes" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea input-block-level" id="contact-message" aria-invalid="false"></textarea></span></p>
 								<div class="row form-submit">
 									<div class="span2">
+										<input type="hidden" id="g-recaptcha-response-message" name="g-recaptcha-response">
 										<button type="submit" class="wpcf7-form-control wpcf7-submit" id="send-contact">Отправить</button>
 									</div>
 								</div>
 							</fieldset>
 						</form>
+						
+						
 					
 						<!--form action="/#wpcf7-f85-o2" method="post" class="wpcf7-form" novalidate="novalidate">
 						<div style="display: none;">
@@ -709,6 +753,7 @@
 					<div class="span12">
 						<p class="address text-center">Спасибо за визит!</p>
 						<p class="copyright text-center" >Copyright <?php echo date('Y'); ?> ГазМастер</p>
+						<p class="text-center">ООО «Орион» | ИНН 6229039979</p>
 					</div>
 				</div>
 			</div>
@@ -729,13 +774,13 @@
 
     
 		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 		
-		  ga('create', 'UA-41655858-1', 'm-maedche.de');
-		  ga('send', 'pageview');
+			ga('create', 'UA-41655858-1', 'm-maedche.de');
+			ga('send', 'pageview');
 		</script>
 		
 		<script type='text/javascript'>
@@ -783,6 +828,21 @@
 				} else {
 			console.log("FooBox does not support the current browser.");
 			}
+		</script>
+		
+		<!-- reCaptcha v3 New from Google -->
+		<script src='https://www.google.com/recaptcha/api.js?render=6LdV1IcUAAAAADRQAhpGL8dVj5_t0nZDPh9m_0tn'></script>
+		<script>
+			grecaptcha.ready(function() {
+				grecaptcha.execute('6LdV1IcUAAAAADRQAhpGL8dVj5_t0nZDPh9m_0tn', {action: 'action_name'}).then(function(token) {
+					if ( document.getElementById('g-recaptcha-response-order') ) {
+						document.getElementById('g-recaptcha-response-order').value=token;
+					}
+					if ( document.getElementById('g-recaptcha-response-message') ) {
+						document.getElementById('g-recaptcha-response-message').value=token;
+					}
+				});
+			});
 		</script>
 	</body>
 </html>
