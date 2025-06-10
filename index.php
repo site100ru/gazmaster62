@@ -5,7 +5,6 @@
 		$display = "block";
 	} else $display = "none";
 ?>
-<!-- Commit 1-->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
