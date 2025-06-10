@@ -176,3 +176,20 @@ footer a:hover {
 	color: #fff;
 	background: #cc2424;
 }
+
+@media (max-width: 767px) {
+	.modal {
+		top: inherit !important;
+		right: 50% !important;
+		left: initial !important;
+		width: auto !important;
+		margin: inherit !important;
+		transform: translate(50%, -50%) !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.modal.fade.in {
+		width: 80% !important;
+	}
+}
