@@ -14,40 +14,182 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 div.wpcf7 .ajax-loader {
-    display: none;
+	display: none;
 }
 .email-field {
-    display: inline-block;
+	display: inline-block;
 }
-#contact input[type="submit"] {
-    font-size: 18px;
-    font-weight: 800;
-    background-color: #cc2424;
-    color: #fff;
-    border: 0;
-    padding: 10px 20px;
+#contact input[type='submit'] {
+	font-size: 18px;
+	font-weight: 800;
+	background-color: #cc2424;
+	color: #fff;
+	border: 0;
+	padding: 10px 20px;
 }
 @media (min-width: 1200px) {
-#contact input[type="submit"] {
-    font-size: 18px;
-    padding: 10px 25px;
+	#contact input[type='submit'] {
+		font-size: 18px;
+		padding: 10px 25px;
+	}
 }
-}
-
 
 /*** Messanger icons ***/
 .messangers {
 	list-style: none;
-	margin: 0px; }
-	
-	@media (max-width: 768px) {
-		.messangers {
-			text-align: center;
-			margin-bottom: 15px;
-		}
+	margin: 0px;
+}
+
+@media (max-width: 768px) {
+	.messangers {
+		text-align: center;
+		margin-bottom: 15px;
 	}
+}
 
 .messangers li {
 	display: inline-block;
 }
 /*** End messanger icons ***/
+
+.modal.fade {
+	top: 150px !important;
+	opacity: 0 !important;
+	transition: all 0.5s ease-out !important;
+	border-radius: 0;
+	max-width: 500px;
+}
+
+.modal.fade.in {
+	top: 50% !important;
+	transform: translateY(-50%);
+	opacity: 1 !important;
+}
+
+.modal {
+	display: block !important;
+	visibility: hidden;
+}
+
+.modal.in {
+	visibility: visible !important;
+}
+
+#callbackForm.form {
+	margin-bottom: 0;
+}
+
+#callbackForm.form .submit {
+	background-color: #cc2424;
+	color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	border: 0;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 30px;
+	font-weight: 800;
+}
+
+input[type='checkbox'] {
+	accent-color: #cc2424;
+}
+
+input[type='checkbox']:hover {
+	opacity: 0.9;
+}
+
+/* Или конкретно для вашего элемента */
+#gridCheck {
+	accent-color: #cc2424;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer a:hover {
+	color: #cecece;
+}
+
+.popup-form {
+	position: fixed;
+	bottom: -500px;
+	left: 0;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.8);
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+	box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	box-sizing: border-box;
+	transition: bottom 0.5s ease-out;
+	z-index: 1000;
+	max-width: 100%;
+}
+
+.popup-form.active {
+	bottom: 0;
+}
+
+.form-content {
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+
+.popup-form-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (min-width: 768px) {
+	.col-md-9 {
+		flex: 0 0 auto;
+		width: 75%;
+	}
+}
+
+@media (min-width: 768px) {
+	.col-md-3 {
+		flex: 0 0 auto;
+		width: 25%;
+	}
+}
+
+@media (min-width: 768px) {
+	.text-md-center {
+		text-align: center !important;
+	}
+}
+
+.popup-form .btn {
+	font-size: 18px;
+	font-weight: 800;
+	background: #cc2424;
+	color: #fff;
+	border-radius: 0;
+	padding: 10px 20px;
+}
+
+.popup-form .btn:hover {
+	color: #fff;
+	background: #cc2424;
+}
+
+@media (max-width: 767px) {
+	.modal {
+		top: inherit !important;
+		right: 50% !important;
+		left: initial !important;
+		width: auto !important;
+		margin: inherit !important;
+		transform: translate(50%, -50%) !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.modal.fade.in {
+		width: 80% !important;
+	}
+}

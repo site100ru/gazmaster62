@@ -161,7 +161,9 @@
 						</li>
 					</ul>
 					<div class="animated fadeInUp buttons-delay">
-						<a id="download-button" class="button hover animated" href="#down">Вызов специалиста</a>
+						<button id="download-button" class="button hover animated" data-toggle="modal" data-target="#callbackModal">
+    					Вызов специалиста
+						</button>
 					</div>
 					<div class="store-buttons animated fadeInUp buttons-delay"></div>
 				</div>
@@ -182,8 +184,46 @@
 				</div>
 			</div>
 		</header>
-		
-		
+
+		<!-- Модальное окно для Bootstrap 2.x -->
+		<div class="modal fade hide" id="callbackModal" tabindex="-1" role="dialog" aria-labelledby="callbackModalLabel" aria-hidden="true">
+			<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h3 id="callbackModalLabel">Оставить заявку</h3>
+			</div>
+				
+			<form method="post" action="#" id="callbackForm" class="form">
+				<div class="modal-body">
+					
+					<div class="row-fluid">
+							<div class="span6">
+									<input type="text" name="name" class="input-block-level" placeholder="Ваше имя">
+							</div>
+							<div class="span6">
+									<input type="tel" name="tel" class="input-block-level telMask" placeholder="Ваш телефон*" required>
+							</div>
+					</div>
+					
+				</div>
+				
+				<div class="modal-footer">
+					<div style="text-align: center; margin-bottom: 10px;">
+						<label class="checkbox" style="text-align: start;">
+								<input type="checkbox" id="gridCheck" name="agreement" required class="form-check-input">
+								Даю согласие на обработку персональных данных. Подробнее об обработке персональных данных в <a href="docs/Privacy-Policy.pdf" target="_blank">Политика конфиденциальности.</a>
+						</label>
+					</div>
+					
+					<button type="submit" class="submit" id="submitBtn" style="display: block; margin: 0 auto;">
+						<span class="btn-text">Отправить</span>
+					</button>
+					
+					<!-- Скрытое поле для reCAPTCHA -->
+					<input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response-callback">
+				</div>
+			</form>
+		</div>
+
 		<section id="newsletter">
 			<div class="container newsletter-anchor">
 				<div class="row">
@@ -754,10 +794,64 @@
 						<p class="address text-center">Спасибо за визит!</p>
 						<p class="copyright text-center" >Copyright <?php echo date('Y'); ?> ГазМастер</p>
 						<p class="text-center">ООО «Орион» | ИНН 6229039979</p>
+						<div class="text-center">
+								<a href="docs/Privacy-Policy.pdf" target="_blank">Политике конфиденциальности</a> | <a href="docs/Consent-to-the-processing-of-personal-data.pdf"  target="_blank">Согласие на обработку персональных данных</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
+
+		<!-- Всплывающая форма Политики конфиденциальности -->
+		<div class="popup-form py-3" id="popupForm">
+			<div class="form-content container">
+				<div class="popup-form-wrapper">
+					<div class="col-md-9">
+						<p class="mb-md-0">На на нашем сайте используются cookie-файлы, в том числе сервисов веб-аналитики. Используя сайт, вы соглашаетесь на <a href="docs/Consent-to-the-processing-of-personal-data.pdf" target="blank">обработку персональных данных</a> при помощи cookie-файлов. Подробнее об обработке персональных данных вы можете узнать в <a href="docs/Privacy-Policy.pdf" target="blank">Политике конфиденциальности.</a></p>
+					</div>
+					<div class="col-md-3 text-md-center">
+						<button id="closeBtn" class="btn">Понятно</button>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				const popupForm = document.getElementById('popupForm');
+				const closeBtn = document.getElementById('closeBtn');
+				
+				// Проверяем нужно ли показывать форму
+				function shouldShowPopup() {
+					const lastClosed = localStorage.getItem('popupLastClosed');
+					
+					// Если пользователь никогда не закрывал форму
+					if (!lastClosed) return true;
+					
+					// Если прошло более 1 часа (3600000 миллисекунд) с последнего закрытия
+					const now = new Date().getTime();
+					return (now - parseInt(lastClosed)) > 3600000;
+				}
+				
+				// Показываем форму если нужно
+				if (shouldShowPopup()) {
+					setTimeout(() => {
+						popupForm.classList.add('active');
+					}, 3000);
+				}
+				
+				// Функция закрытия формы
+				function closePopup() {
+					popupForm.classList.remove('active');
+					
+					// Сохраняем время закрытия
+					localStorage.setItem('popupLastClosed', new Date().getTime().toString());
+				}
+				
+				// Закрытие по кнопке
+				closeBtn.addEventListener('click', closePopup);
+			});
+		</script>
+		<!-- /Всплывающая форма Политики конфиденциальности -->
     
 
         <!-- Показываем сообщение об успешной отправки -->
