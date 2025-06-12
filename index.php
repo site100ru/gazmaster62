@@ -192,7 +192,7 @@
 					<h3 id="callbackModalLabel">Оставить заявку</h3>
 			</div>
 				
-			<form method="post" action="#" id="callbackForm" class="form">
+			<form method="post" action="mls/callback-mail.php" id="callbackForm" class="form">
 				<div class="modal-body">
 					
 					<div class="row-fluid">
@@ -209,7 +209,7 @@
 				<div class="modal-footer">
 					<div style="text-align: center; margin-bottom: 10px;">
 						<label class="checkbox" style="text-align: start;">
-								<input type="checkbox" id="gridCheck" name="agreement" required class="form-check-input" checked>
+								<input type="checkbox" required  id="gridCheck" name="agreement" required class="form-check-input" checked>
 								Даю согласие на обработку персональных данных. Подробнее об обработке персональных данных в <a href="docs/Privacy-Policy.pdf" target="_blank">Политика конфиденциальности.</a>
 						</label>
 					</div>
@@ -229,6 +229,9 @@
 				<div class="row">
 					<div class="span8 offset2">
 					  <h2><i class="icon-envelope-alt"></i>Приготовим для Вас индивидуальное предложение!</h2></div>
+				</div>
+				<div class="span12">
+					<p style="margin-bottom: 30px;" class="text-center newsletter-info">Максимально короткие сроки реагирования.</p>
 				</div>
 				<div class="row">
 					<div class="span8 offset2 newsletter-form">
@@ -250,9 +253,13 @@
 							</form>
 						</div>
 					</div>
-					<div class="span12">
-						<p class="text-center newsletter-info">Максимально короткие сроки реагирования.</p>
-					</div>
+					
+				</div>
+				<div style="max-width: 80%;text-align: center;margin-bottom: 10px;justify-self: center; color:white">
+						<label class="checkbox" style="text-align: start;">
+								<input type="checkbox" required  id="gridCheck-two" name="agreement" required class="form-check-input" checked>
+								Даю согласие на обработку персональных данных. Подробнее об обработке персональных данных в <a href="docs/Privacy-Policy.pdf" target="_blank"style="color:white">Политика конфиденциальности.</a>
+						</label>
 				</div>
 			</div>
 		</section>
@@ -751,6 +758,13 @@
 										<button type="submit" class="wpcf7-form-control wpcf7-submit" id="send-contact">Отправить</button>
 									</div>
 								</div>
+								<br>
+								<div style="text-align: center; margin-bottom: 10px;">
+									<label class="checkbox" style="text-align: start;">
+										<input type="checkbox" required  id="gridCheck" name="agreement" required class="form-check-input" checked>
+										Даю согласие на обработку персональных данных. Подробнее об обработке персональных данных в <a href="docs/Privacy-Policy.pdf" target="_blank">Политика конфиденциальности.</a>
+									</label>
+								</div>
 							</fieldset>
 						</form>
 						
@@ -934,6 +948,9 @@
 					}
 					if ( document.getElementById('g-recaptcha-response-message') ) {
 						document.getElementById('g-recaptcha-response-message').value=token;
+					}
+					if ( document.getElementById('g-recaptcha-response-callback') ) {
+							document.getElementById('g-recaptcha-response-callback').value=token;
 					}
 				});
 			});

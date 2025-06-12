@@ -99,7 +99,6 @@ input[type='checkbox']:hover {
 	opacity: 0.9;
 }
 
-/* Или конкретно для вашего элемента */
 #gridCheck {
 	accent-color: #cc2424;
 }
@@ -269,4 +268,10 @@ header .button:hover {
 
 .footer-copy a {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#newsletter-form {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
 }
