@@ -209,7 +209,7 @@
 				<div class="modal-footer">
 					<div style="text-align: center; margin-bottom: 10px;">
 						<label class="checkbox" style="text-align: start;">
-								<input type="checkbox" id="gridCheck" name="agreement" required class="form-check-input">
+								<input type="checkbox" id="gridCheck" name="agreement" required class="form-check-input" checked>
 								Даю согласие на обработку персональных данных. Подробнее об обработке персональных данных в <a href="docs/Privacy-Policy.pdf" target="_blank">Политика конфиденциальности.</a>
 						</label>
 					</div>
@@ -794,8 +794,8 @@
 						<p class="address text-center">Спасибо за визит!</p>
 						<p class="copyright text-center" >Copyright <?php echo date('Y'); ?> ГазМастер</p>
 						<p class="text-center">ООО «Орион» | ИНН 6229039979</p>
-						<div class="text-center">
-								<a href="docs/Privacy-Policy.pdf" target="_blank">Политике конфиденциальности</a> | <a href="docs/Consent-to-the-processing-of-personal-data.pdf"  target="_blank">Согласие на обработку персональных данных</a>
+						<div class="text-center footer-copy">
+								<a href="docs/Privacy-Policy.pdf" target="_blank">Политика конфиденциальности</a> | <a href="docs/Consent-to-the-processing-of-personal-data.pdf"  target="_blank">Согласие на обработку персональных данных</a>
 						</div>
 					</div>
 				</div>
@@ -810,7 +810,7 @@
 						<p class="mb-md-0">На на нашем сайте используются cookie-файлы, в том числе сервисов веб-аналитики. Используя сайт, вы соглашаетесь на <a href="docs/Consent-to-the-processing-of-personal-data.pdf" target="blank">обработку персональных данных</a> при помощи cookie-файлов. Подробнее об обработке персональных данных вы можете узнать в <a href="docs/Privacy-Policy.pdf" target="blank">Политике конфиденциальности.</a></p>
 					</div>
 					<div class="col-md-3 text-md-center">
-						<button id="closeBtn" class="btn">Понятно</button>
+						<button type="button" id="closeBtn" class="btn">Понятно</button>
 					</div>
 				</div>	
 			</div>
