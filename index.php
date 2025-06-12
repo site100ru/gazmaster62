@@ -807,7 +807,7 @@
 			<div class="form-content container">
 				<div class="popup-form-wrapper">
 					<div class="col-md-9">
-						<p class="mb-md-0">На на нашем сайте используются cookie-файлы, в том числе сервисов веб-аналитики. Используя сайт, вы соглашаетесь на <a href="docs/Consent-to-the-processing-of-personal-data.pdf" target="blank">обработку персональных данных</a> при помощи cookie-файлов. Подробнее об обработке персональных данных вы можете узнать в <a href="docs/Privacy-Policy.pdf" target="blank">Политике конфиденциальности.</a></p>
+						<p class="mb-md-0">На нашем сайте используются cookie-файлы, в том числе сервисов веб-аналитики. Используя сайт, вы соглашаетесь на <a href="docs/Consent-to-the-processing-of-personal-data.pdf" target="blank">обработку персональных данных</a> при помощи cookie-файлов. Подробнее об обработке персональных данных вы можете узнать в <a href="docs/Privacy-Policy.pdf" target="blank">Политике конфиденциальности.</a></p>
 					</div>
 					<div class="col-md-3 text-md-center">
 						<button type="button" id="closeBtn" class="btn">Понятно</button>
